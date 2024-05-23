@@ -6,24 +6,45 @@ Legolas
 Gimli
 Boromir
 Galadriel
-Elrond
-Arwen
-Éowyn
-Faramir
-Théoden
-Saruman
-Gollum
-Bilbo Baggins
-Merry Brandybuck
-Pippin Took
-Sauron
-Denethor
-Treebeard
-The Shire
 Rivendell
-Lothlórien
-Gondor
-Rohan
 Mordor
-Isengard
-Minas Tirith
+Helm's Deep
+Harry Potter
+Hermione Granger
+Ron Weasley
+Albus Dumbledore
+Severus Snape
+Sirius Black
+Voldemort
+Hogwarts
+Diagon Alley
+Hogsmeade
+Yoda
+Luke Skywalker
+Leia Organa
+Han Solo
+Darth Vader
+Emperor Palpatine
+Obi-Wan Kenobi
+Padme Amidala
+Tatooine
+Dagobah
+Endor
+Death Star
+Ned Stark
+Catelyn Stark
+Robb Stark
+Sansa Stark
+Arya Stark
+Jon Snow
+Cersei Lannister
+Jaime Lannister
+Tyrion Lannister
+Daenerys Targaryen
+Winterfell
+King's Landing
+The Wall
+Robert Baratheon
+Jaqen H'ghar
+Missandei
+Margaery Tyrell

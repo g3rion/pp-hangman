@@ -91,10 +91,10 @@ public class Hangman {
                 break;
             case "medium":
                 minLength = 6;
-                maxLength = 8;
+                maxLength = 9;
                 break;
             case "hard":
-                minLength = 8;
+                minLength = 10;
                 maxLength = Integer.MAX_VALUE; // No upper limit
                 break;
             default:

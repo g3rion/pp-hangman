@@ -8,7 +8,7 @@ Wisielca nie trzeba nikomu przedstawiać, ale na wszelki wypadek - program po wy
 ## Funkcjonalności
 - **Wybór losowego słowa**: Program wybiera losowe słowo z bazy słów.
 - **Edytowanie bazy danych**: Możliwość dodawania, usuwania i przeglądania słów w bazie.
-- **Wybór poziomu trudności**: Możliwość wyboru poziomu trudności (łatwy, średni, trudny). Każdy poziom ma różne limity długości słów.
+- **Wybór poziomu trudności**: Możliwość wyboru poziomu trudności (łatwy, średni, trudny). Wyższy poziom oznacza dłuższe słowa losowane z 
 - **Dostęp do statystyk**: Możliwość przeglądania statystyk rozgrywki, takich jak liczba wygranych, przegranych, procent wygranych oraz średnia liczba błędów przed wygraną.
 - **Automatyczne wypełnianie znaków specjalnych**: Automatyczne wypełnianie spacji i znaków specjalnych w słowie, aby gracz musiał zgadywać tylko litery.
 
