@@ -32,8 +32,14 @@ public class Hangman {
             System.out.println("4. Exit");
             System.out.print("Choose an option: ");
 
-            int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            String input = scanner.nextLine();
+            int choice;
+            try {
+                choice = Integer.parseInt(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid option. Please enter a number.");
+                continue;
+            }
 
             switch (choice) {
                 case 1:
@@ -82,7 +88,7 @@ public class Hangman {
         System.out.println("Choose difficulty (easy, medium, hard): ");
         String difficulty = scanner.nextLine().toLowerCase();
         int minLength = 0;
-        int maxLength = Integer.MAX_VALUE; // Default max length
+        int maxLength = Integer.MAX_VALUE;
 
         switch (difficulty) {
             case "easy":
@@ -95,7 +101,7 @@ public class Hangman {
                 break;
             case "hard":
                 minLength = 10;
-                maxLength = Integer.MAX_VALUE; // No upper limit
+                maxLength = Integer.MAX_VALUE;
                 break;
             default:
                 System.out.println("Invalid difficulty. Defaulting to easy.");
@@ -202,19 +208,25 @@ public class Hangman {
             System.out.println("4. Save and Exit");
             System.out.print("Choose an option: ");
 
-            int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            String input = scanner.nextLine();
+            int choice;
+            try {
+                choice = Integer.parseInt(input);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid option. Please enter a number.");
+                continue;
+            }
 
             switch (choice) {
                 case 1:
                     System.out.print("Enter a word to add: ");
-                    String newWord = scanner.nextLine().toLowerCase();
+                    String newWord = scanner.nextLine();
                     words.add(newWord);
                     System.out.println("Word added.");
                     break;
                 case 2:
                     System.out.print("Enter a word to remove: ");
-                    String removeWord = scanner.nextLine().toLowerCase();
+                    String removeWord = scanner.nextLine();
                     if (words.remove(removeWord)) {
                         System.out.println("Word removed.");
                     } else {
